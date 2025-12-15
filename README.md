@@ -1,3 +1,14 @@
+> ⚠️ **Important Notice**
+>
+> This library is specifically adapted for using **iPerf with MCU-based Wi-Fi chipsets** (e.g. devices controlled via AT commands or running in constrained embedded environments).
+>
+> For **desktop or mobile platforms** (macOS / iOS / iPadOS) with full networking capabilities, it is **strongly recommended** to use the original `iperf-swift` implementation instead.
+>
+> The original `iperf-swift` source code can be found here:  
+> https://github.com/igorskh/iperf-swift
+>
+> This repository focuses on modifications and adaptations required for **MCU-driven Wi-Fi workflows**, such as limited socket control, custom data paths, or non-standard network stacks.
+
 # Swift wrapper for iPerf
 
 An easy to use Swift wrapper for iPerf.
